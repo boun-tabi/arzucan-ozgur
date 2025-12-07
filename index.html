@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arzucan Özgür - Associate Professor</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: #333;
+            line-height: 1.7;
+            padding-top: 70px;
+        }
+
+        h1, h2, h3, h4, h5 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        h2 {
+            margin-bottom: 2rem;
+            position: relative;
+            display: inline-block;
+        }
+
+        h2::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background: var(--accent-color);
+            margin-top: 10px;
+        }
+
+        .navbar {
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+            background: rgba(255,255,255,0.95);
+            backdrop-filter: blur(10px);
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            color: var(--primary-color) !important;
+        }
+
+        .nav-link {
+            font-weight: 500;
+            color: #555 !important;
+        }
+
+        .nav-link:hover {
+            color: var(--accent-color) !important;
+        }
+
+        .hero-section {
+            padding: 4rem 0;
+        }
+
+        .profile-image {
+            width: 280px;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid white;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .bio-text {
+            font-family: 'Merriweather', serif;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .interest-badge {
+            background-color: #e8f4f8;
+            color: var(--accent-color);
+            border-radius: 20px;
+            padding: 0.4rem 1rem;
+            font-size: 0.85rem;
+            margin: 0.2rem;
+            display: inline-block;
+        }
+
+        .card {
+            border: none;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+            height: 100%;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+
+        .news-card {
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .news-date {
+            font-family: monospace;
+            font-weight: bold;
+            color: var(--accent-color);
+        }
+
+        .project-tag {
+            background-color: #f8f9fa;
+            color: #7f8c8d;
+            border-radius: 15px;
+            padding: 0.2rem 0.7rem;
+            font-size: 0.75rem;
+            margin-right: 0.3rem;
+        }
+
+        .publication-item {
+            border-left: 3px solid #eee;
+            padding-left: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: border-color 0.3s;
+        }
+
+        .publication-item:hover {
+            border-left-color: var(--accent-color);
+        }
+
+        .publication-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: var(--primary-color);
+        }
+
+        .publication-venue {
+            font-style: italic;
+            color: #666;
+            font-family: 'Merriweather', serif;
+        }
+
+        .tool-card {
+            background-color: white;
+        }
+
+        .tool-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .student-section {
+            background-color: #f8f9fa;
+        }
+
+        .student-category {
+            color: var(--accent-color);
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .teaching-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 0.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .course-code {
+            font-weight: 700;
+            color: var(--accent-color);
+        }
+
+        .contact-section {
+            background-color: #f8f9fa;
+            border-top: 1px solid #eee;
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: rgba(255,255,255,0.8);
+            padding: 1.5rem 0;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #2980b9;
+            text-decoration: underline;
+        }
+
+        .btn-accent {
+            background-color: var(--accent-color);
+            color: white;
+            border: none;
+        }
+
+        .btn-accent:hover {
+            background-color: #2980b9;
+            color: white;
+        }
+
+        .funder-badge {
+            background-color: #e8f4f8;
+            color: #2980b9;
+            font-size: 0.8rem;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+        }
+
+        .short-bio-card {
+            background-color: #f8f9fa;
+            border-left: 4px solid var(--accent-color);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Arzucan Özgür</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#news">News</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#publications">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tools">Tools</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#students">Students</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#teaching">Teaching</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-center mb-4 mb-lg-0">
+                    
+                    <img src="images/arzucan_ozgur.jpg" alt="Arzucan Özgür" class="profile-image">
+                    
+                </div>
+                <div class="col-lg-8">
+                    <h1 class="display-4 mb-2">Arzucan Özgür</h1>
+                    <p class="lead text-muted mb-3">Associate Professor @ <a href="http://www.cmpe.boun.edu.tr/" target="_blank">Department of Computer Engineering</a>, <a href="http://www.boun.edu.tr/" target="_blank">Bogazici University</a></p>
+                    <div class="bio-text mb-4"><p>I am a faculty member in the <a href="http://www.cmpe.boun.edu.tr/">Department of Computer Engineering</a> at <a href="http://www.boun.edu.tr/">Bogazici University</a>, and co-director of <a href="http://tabilab.cmpe.boun.edu.tr/">TABI (Text Analytics and Bioinformatics) Lab</a>. I'm also a member of the <a href="http://ailab.cmpe.boun.edu.tr/">AILAB</a>. My research is at the intersection of <strong>bioinformatics</strong> and <strong>natural language processing</strong> with the goal of developing algorithms for processing and understanding both natural (human) languages and the languages encoded in biological molecular sequences.</p></div>
+
+                    
+                    <div class="mb-4">
+                        
+                        <span class="interest-badge">Natural Language Processing</span>
+                        
+                        <span class="interest-badge">Bioinformatics</span>
+                        
+                        <span class="interest-badge">Text Mining</span>
+                        
+                        <span class="interest-badge">Machine Learning</span>
+                        
+                        <span class="interest-badge">Information Extraction</span>
+                        
+                        <span class="interest-badge">Turkish Language Processing</span>
+                        
+                    </div>
+                    
+
+                    <div>
+                        <a href="mailto:arzucan.ozgur@boun.edu.tr" class="btn btn-accent me-2 mb-2">
+                            <i class="bi bi-envelope-fill me-1"></i> Email
+                        </a>
+                        
+                        
+                        <a href="https://scholar.google.com/citations?hl=en&user=8Kn4-EsAAAAJ" target="_blank" class="btn btn-outline-primary me-2 mb-2">
+                            <i class="bi bi-mortarboard-fill me-1"></i> Google Scholar
+                        </a>
+                        
+                        <a href="https://dblp.org/pid/26/6952.html" target="_blank" class="btn btn-outline-primary me-2 mb-2">
+                            <i class="bi bi-journal-text me-1"></i> DBLP
+                        </a>
+                        
+                        <a href="cv_arzucan.pdf" target="_blank" class="btn btn-outline-primary me-2 mb-2">
+                            <i class="bi bi-file-earmark-person me-1"></i> CV
+                        </a>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="row mt-4">
+                <div class="col-12">
+                    <div class="card short-bio-card border-0">
+                        <div class="card-body">
+                            <h5><i class="bi bi-person-lines-fill me-2"></i>Short Bio</h5>
+                            <p class="mb-0"><p>I joined the Department of Computer Engineering at Bogazici University in 2011. Prior to that I worked in the Faculty of Computer and Informatics at Istanbul Technical University between 2010-2011. I received my <strong>Ph.D. degree in Computer Science and Engineering</strong> from the University of Michigan, Ann Arbor, USA in 2010. I hold an M.S. degree and a B.S. degree in Computer Engineering from Bogazici University.</p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- News Section -->
+    
+    <section class="py-5" id="news">
+        <div class="container">
+            <h2><i class="bi bi-newspaper me-2"></i>Recent News</h2>
+            <div class="row">
+                
+                <div class="col-12 mb-3">
+                    <div class="card news-card">
+                        <div class="card-body">
+                            <span class="news-date">2022</span>
+                            <p class="mb-0 mt-2"><p>Gokce Uludogan presented "Exploiting Pretrained Biochemical Language Models for Targeted Drug Design" at <strong>ECCB 2022</strong> in Barcelona, Spain. The paper is published in the <em>Bioinformatics</em> journal.</p></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 mb-3">
+                    <div class="card news-card">
+                        <div class="card-body">
+                            <span class="news-date">2023</span>
+                            <p class="mb-0 mt-2"><p>Arzucan Ozgur serves in the Organizing Committee of <strong>RECOMB 2023</strong>, which took place in Istanbul between 14-19 April 2023.</p></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 mb-3">
+                    <div class="card news-card">
+                        <div class="card-body">
+                            <span class="news-date">2022</span>
+                            <p class="mb-0 mt-2"><p>Arzucan Ozgur serves as Vice Chair for the IAPR Technical Committee on <strong>Pattern Recognition for Bioinformatics and Digital Health</strong> between 2022-2024.</p></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 mb-3">
+                    <div class="card news-card">
+                        <div class="card-body">
+                            <span class="news-date">2022</span>
+                            <p class="mb-0 mt-2"><p>New paper co-authored by Merve Unlu Menevse, Yusufcan Manav, Ebru Arisoy, and Arzucan Ozgur entitled "A Framework for Automatic Generation of Spoken Question-Answering Data" is accepted to the <strong>Findings of EMNLP 2022</strong>.</p></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 mb-3">
+                    <div class="card news-card">
+                        <div class="card-body">
+                            <span class="news-date">2022</span>
+                            <p class="mb-0 mt-2"><p>Saziye Betul Ozates successfully defended her PhD thesis entitled "Deep Learning-based Dependency Parsing for Turkish".</p></p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Projects Section -->
+    
+    <section class="py-5 bg-light" id="projects">
+        <div class="container">
+            <h2><i class="bi bi-folder-fill me-2"></i>Funded Projects</h2>
+            <div class="row">
+                
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Utilizing Digital Technology for Social Cohesion</h5>
+                            <p class="card-text text-muted"><p>Utilizing Digital Technology for Social Cohesion, Positive Messaging and Peace by Boosting Collaboration, Exchange and Solidarity. The project is led by the Hrant Dink Foundation (HDV) and is a collaboration between HDV, Sabanci University, and Bogazici University.</p></p>
+                            <div class="mb-3">
+                                
+                                <span class="project-tag">NLP</span>
+                                
+                                <span class="project-tag">Hate Speech Detection</span>
+                                
+                                <span class="project-tag">Social Media</span>
+                                
+                            </div>
+                            
+                            <span class="funder-badge"><i class="bi bi-bank me-1"></i>European Union - EuropeAid</span>
+                            
+                            
+                            <span class="badge bg-secondary ms-2">2021-2024</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Chemical Language Processing for Target-based Drug Design</h5>
+                            <p class="card-text text-muted"><p>Developing chemical language processing methods for target-based drug design using deep learning approaches.</p></p>
+                            <div class="mb-3">
+                                
+                                <span class="project-tag">Bioinformatics</span>
+                                
+                                <span class="project-tag">Drug Design</span>
+                                
+                                <span class="project-tag">Deep Learning</span>
+                                
+                            </div>
+                            
+                            <span class="funder-badge"><i class="bi bi-bank me-1"></i>TUBITAK 1001</span>
+                            
+                            
+                            <span class="badge bg-secondary ms-2">2019-2022</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">A Deep Learning based Turkish Dependency Parser</h5>
+                            <p class="card-text text-muted"><p>Developing a deep learning based dependency parser for Turkish language.</p></p>
+                            <div class="mb-3">
+                                
+                                <span class="project-tag">NLP</span>
+                                
+                                <span class="project-tag">Turkish</span>
+                                
+                                <span class="project-tag">Deep Learning</span>
+                                
+                                <span class="project-tag">Parsing</span>
+                                
+                            </div>
+                            
+                            <span class="funder-badge"><i class="bi bi-bank me-1"></i>TUBITAK 1005</span>
+                            
+                            
+                            <span class="badge bg-secondary ms-2">2018-2019</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Contextual Text Mining from the Biomedical Scientific Literature</h5>
+                            <p class="card-text text-muted"><p>Developing text mining techniques to automatically extract biologically important information such as relationships between biomolecules from scientific publications.</p></p>
+                            <div class="mb-3">
+                                
+                                <span class="project-tag">Text Mining</span>
+                                
+                                <span class="project-tag">Bioinformatics</span>
+                                
+                                <span class="project-tag">Information Extraction</span>
+                                
+                            </div>
+                            
+                            <span class="funder-badge"><i class="bi bi-bank me-1"></i>European Commission, FP7 Marie Curie Career Integration Grant</span>
+                            
+                            
+                            <span class="badge bg-secondary ms-2">2012-2016</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Publications Section -->
+    
+    <section class="py-5" id="publications">
+        <div class="container">
+            <h2><i class="bi bi-journal-text me-2"></i>Selected Publications</h2>
+            <p class="text-muted mb-4">
+                <a href="https://scholar.google.com/citations?hl=en&user=8Kn4-EsAAAAJ" target="_blank" class="me-3">
+                    <i class="bi bi-mortarboard-fill me-1"></i>Google Scholar
+                </a>
+                <a href="https://dblp.org/pid/26/6952.html" target="_blank">
+                    <i class="bi bi-journal-text me-1"></i>DBLP
+                </a>
+            </p>
+            
+            <div class="publication-item">
+                <div class="publication-title">Exploiting pretrained biochemical language models for targeted drug design</div>
+                <div class="text-muted small"><p>Gokce Uludogan, Elif Ozkirimli, Kutlu Ulgen, Nilgun Karali, <strong>Arzucan Ozgur</strong></p></div>
+                <div class="publication-venue">Bioinformatics, Volume 38, Issue Supplement_2, Pages ii155–ii161, 2022</div>
+                
+                <div class="mt-2">
+                    
+                    <a href="https://doi.org/10.1093/bioinformatics/btac482" target="_blank" class="btn btn-sm btn-outline-primary me-1">
+                        <i class="bi bi-link-45deg"></i> Paper
+                    </a>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="publication-item">
+                <div class="publication-title">Cluster-based mention typing for named entity disambiguation</div>
+                <div class="text-muted small"><p>Arda Celebi, <strong>Arzucan Ozgur</strong></p></div>
+                <div class="publication-venue">Natural Language Engineering, 28(1), 1-37, 2022</div>
+                
+                <div class="mt-2">
+                    
+                    <a href="https://doi.org/10.1017/S1351324920000443" target="_blank" class="btn btn-sm btn-outline-primary me-1">
+                        <i class="bi bi-link-45deg"></i> Paper
+                    </a>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="publication-item">
+                <div class="publication-title">Resources for Turkish dependency parsing: Introducing the BOUN treebank and the BoAT annotation tool</div>
+                <div class="text-muted small"><p>Utku Turk, Furkan Atmaca, Saziye Betul Ozates, Gozde Berk, Seyyit Talha Bedir, Abdullatif Koksal, Balkiz Ozturk Basaran, Tunga Gungor, <strong>Arzucan Ozgur</strong></p></div>
+                <div class="publication-venue">Language Resources and Evaluation, 56(1), pp. 259-307, 2022</div>
+                
+                <div class="mt-2">
+                    
+                    <a href="https://link.springer.com/article/10.1007/s10579-021-09558-0" target="_blank" class="btn btn-sm btn-outline-primary me-1">
+                        <i class="bi bi-link-45deg"></i> Paper
+                    </a>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="publication-item">
+                <div class="publication-title">A Hybrid Deep Dependency Parsing Approach Enhanced With Rules and Morphology: A Case Study for Turkish</div>
+                <div class="text-muted small"><p>Saziye Betul Ozates, <strong>Arzucan Ozgur</strong>, Tunga Gungor, Balkiz Ozturk Basaran</p></div>
+                <div class="publication-venue">IEEE Access, vol. 10, pp. 93867-93886, 2022</div>
+                
+                <div class="mt-2">
+                    
+                    <a href="https://doi.org/10.1109/ACCESS.2022.3202947" target="_blank" class="btn btn-sm btn-outline-primary me-1">
+                        <i class="bi bi-link-45deg"></i> Paper
+                    </a>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="publication-item">
+                <div class="publication-title">Improving Code-Switching Dependency Parsing with Semi-Supervised Auxiliary Tasks</div>
+                <div class="text-muted small"><p>Saziye Betul Ozates, <strong>Arzucan Ozgur</strong>, Tunga Gungor, Ozlem Cetinoglu</p></div>
+                <div class="publication-venue">Findings of the Association for Computational Linguistics: NAACL 2022, pp. 1159-1171</div>
+                
+                <div class="mt-2">
+                    
+                    <a href="https://aclanthology.org/2022.findings-naacl.87/" target="_blank" class="btn btn-sm btn-outline-primary me-1">
+                        <i class="bi bi-link-45deg"></i> Paper
+                    </a>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="publication-item">
+                <div class="publication-title">A Dataset and BERT-based Models for Targeted Sentiment Analysis on Turkish Texts</div>
+                <div class="text-muted small"><p>Mustafa Melih Mutlu, <strong>Arzucan Ozgur</strong></p></div>
+                <div class="publication-venue">ACL 2022: Student Research Workshop, pages 467–472, Dublin, Ireland</div>
+                
+                <div class="mt-2">
+                    
+                    <a href="https://aclanthology.org/2022.acl-srw.39/" target="_blank" class="btn btn-sm btn-outline-primary me-1">
+                        <i class="bi bi-link-45deg"></i> Paper
+                    </a>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="publication-item">
+                <div class="publication-title">Balancing Methods for Multi-label Text Classification with Long-Tailed Class Distribution</div>
+                <div class="text-muted small"><p>Yi Huang, Buse Giledereli, Abdullatif Koksal, <strong>Arzucan Ozgur</strong>, Elif Ozkirimli</p></div>
+                <div class="publication-venue">EMNLP 2021, pages 8153–8161, Online and Punta Cana, Dominican Republic</div>
+                
+                <div class="mt-2">
+                    
+                    <a href="https://aclanthology.org/2021.emnlp-main.643/" target="_blank" class="btn btn-sm btn-outline-primary me-1">
+                        <i class="bi bi-link-45deg"></i> Paper
+                    </a>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="publication-item">
+                <div class="publication-title">ChemBoost: A Chemical Language Based Approach for Protein - Ligand Binding Affinity Prediction</div>
+                <div class="text-muted small"><p>Riza Ozcelik, Hakime Ozturk, <strong>Arzucan Ozgur</strong>, Elif Ozkirimli</p></div>
+                <div class="publication-venue">Molecular Informatics, 40, 2000212, 2021</div>
+                
+                <div class="mt-2">
+                    
+                    <a href="https://doi.org/10.1002/minf.202000212" target="_blank" class="btn btn-sm btn-outline-primary me-1">
+                        <i class="bi bi-link-45deg"></i> Paper
+                    </a>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+    
+
+    <!-- Tools Section -->
+    
+    <section class="py-5 bg-light" id="tools">
+        <div class="container">
+            <h2><i class="bi bi-tools me-2"></i>Software & Tools</h2>
+            <div class="row">
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card tool-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">VAPUR</h5>
+                            <p class="card-text text-muted">A Search Engine for Related Protein-Compound Pairs in COVID-19 Literature</p>
+                            <a href="https://tabilab.cmpe.boun.edu.tr/vapur/" target="_blank" class="btn btn-outline-primary btn-sm">
+                                <i class="bi bi-box-arrow-up-right me-1"></i>Visit
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card tool-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">WarmMolGen</h5>
+                            <p class="card-text text-muted">A Tool for Protein Target-based Chemical Molecule Generation</p>
+                            <a href="https://github.com/boun-tabi/biochemical-lms-for-drug-design" target="_blank" class="btn btn-outline-primary btn-sm">
+                                <i class="bi bi-box-arrow-up-right me-1"></i>Visit
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card tool-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">TULAP</h5>
+                            <p class="card-text text-muted">The Turkish Language Processing Platform</p>
+                            <a href="https://tulap.cmpe.boun.edu.tr" target="_blank" class="btn btn-outline-primary btn-sm">
+                                <i class="bi bi-box-arrow-up-right me-1"></i>Visit
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card tool-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">BIOSSES</h5>
+                            <p class="card-text text-muted">Biomedical Sentence Similarity Estimation System</p>
+                            <a href="http://tabilab.cmpe.boun.edu.tr/BIOSSES/" target="_blank" class="btn btn-outline-primary btn-sm">
+                                <i class="bi bi-box-arrow-up-right me-1"></i>Visit
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card tool-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Hashtag Segmentation Tool</h5>
+                            <p class="card-text text-muted">Tool for segmenting hashtags in social media text</p>
+                            <a href="http://tabilab.cmpe.boun.edu.tr/projects/hashtag_segmentation/" target="_blank" class="btn btn-outline-primary btn-sm">
+                                <i class="bi bi-box-arrow-up-right me-1"></i>Visit
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="card tool-card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">PHISTO</h5>
+                            <p class="card-text text-muted">Pathogen-Host Interaction Search Tool</p>
+                            <a href="http://www.phisto.org" target="_blank" class="btn btn-outline-primary btn-sm">
+                                <i class="bi bi-box-arrow-up-right me-1"></i>Visit
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Students Section -->
+    
+    <section class="py-5 student-section" id="students">
+        <div class="container">
+            <h2><i class="bi bi-people-fill me-2"></i>Students</h2>
+
+            <div class="row">
+                <!-- Current Students -->
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="student-category"><i class="bi bi-mortarboard me-2"></i>Current PhD Students</h4>
+                            <ul class="list-unstyled">
+                                
+                                <li class="mb-2">
+                                    <i class="bi bi-person-fill text-primary me-2"></i>
+                                    Gonul Ayci
+                                    <small class="text-muted">(Co-advise with Pinar Yolum)</small>
+                                </li>
+                                
+                                <li class="mb-2">
+                                    <i class="bi bi-person-fill text-primary me-2"></i>
+                                    Melih Barsbey
+                                    <small class="text-muted">(Co-advise with Taylan Cemgil)</small>
+                                </li>
+                                
+                                <li class="mb-2">
+                                    <i class="bi bi-person-fill text-primary me-2"></i>
+                                    Nuriye Ozlem Ozcan Simsek
+                                    <small class="text-muted">(Co-advise with Fikret Gurgen)</small>
+                                </li>
+                                
+                                <li class="mb-2">
+                                    <i class="bi bi-person-fill text-primary me-2"></i>
+                                    Burak Suyunu
+                                    
+                                </li>
+                                
+                                <li class="mb-2">
+                                    <i class="bi bi-person-fill text-primary me-2"></i>
+                                    Gokce Uludogan
+                                    
+                                </li>
+                                
+                                <li class="mb-2">
+                                    <i class="bi bi-person-fill text-primary me-2"></i>
+                                    Merve Unlu Menevse
+                                    <small class="text-muted">(Co-advise with Ebru Arisoy)</small>
+                                </li>
+                                
+                                <li class="mb-2">
+                                    <i class="bi bi-person-fill text-primary me-2"></i>
+                                    Enes Taylan
+                                    
+                                </li>
+                                
+                            </ul>
+
+                            <h4 class="student-category mt-4"><i class="bi bi-mortarboard me-2"></i>Current MS Students</h4>
+                            <ul class="list-unstyled">
+                                
+                                <li class="mb-2">
+                                    <i class="bi bi-person-fill text-info me-2"></i>
+                                    Omer Ak
+                                    
+                                </li>
+                                
+                                <li class="mb-2">
+                                    <i class="bi bi-person-fill text-info me-2"></i>
+                                    Nur Bengisu Cam
+                                    
+                                </li>
+                                
+                                <li class="mb-2">
+                                    <i class="bi bi-person-fill text-info me-2"></i>
+                                    Omer Faruk Cavas
+                                    
+                                </li>
+                                
+                                <li class="mb-2">
+                                    <i class="bi bi-person-fill text-info me-2"></i>
+                                    Sadullah Gultekin
+                                    <small class="text-muted">(Co-advise with Pinar Yanardag)</small>
+                                </li>
+                                
+                                <li class="mb-2">
+                                    <i class="bi bi-person-fill text-info me-2"></i>
+                                    Musa Nuri Ihtiyar
+                                    
+                                </li>
+                                
+                                <li class="mb-2">
+                                    <i class="bi bi-person-fill text-info me-2"></i>
+                                    Berke Kavak
+                                    
+                                </li>
+                                
+                                <li class="mb-2">
+                                    <i class="bi bi-person-fill text-info me-2"></i>
+                                    Burak Can Koban
+                                    
+                                </li>
+                                
+                                <li class="mb-2">
+                                    <i class="bi bi-person-fill text-info me-2"></i>
+                                    Yusufcan Manav
+                                    <small class="text-muted">(Co-advise with Ebru Arisoy)</small>
+                                </li>
+                                
+                                <li class="mb-2">
+                                    <i class="bi bi-person-fill text-info me-2"></i>
+                                    Busra Oguzoglu
+                                    
+                                </li>
+                                
+                                <li class="mb-2">
+                                    <i class="bi bi-person-fill text-info me-2"></i>
+                                    Bugrahan Sahin
+                                    
+                                </li>
+                                
+                                <li class="mb-2">
+                                    <i class="bi bi-person-fill text-info me-2"></i>
+                                    Cansu Damla Yilmaz
+                                    
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Alumni -->
+                <div class="col-lg-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h4 class="student-category"><i class="bi bi-award me-2"></i>PhD Alumni</h4>
+                            <ul class="list-unstyled">
+                                
+                                <li class="mb-3">
+                                    
+                                    <a href="http://ilknurkaradeniz.com/" target="_blank"><strong>Ilknur Karadeniz</strong></a>
+                                    
+                                    <span class="badge bg-secondary">2019</span>
+                                    <br>
+                                    <small class="text-muted fst-italic">Ontology-based Entity Tagging and Normalization in the Biomedical Domain</small>
+                                    <br><small class="text-success">Assistant Professor at Isik University</small>
+                                </li>
+                                
+                                <li class="mb-3">
+                                    
+                                    <a href="https://hkmztrk.github.io/" target="_blank"><strong>Hakime Ozturk</strong></a>
+                                    
+                                    <span class="badge bg-secondary">2019</span>
+                                    <br>
+                                    <small class="text-muted fst-italic">Text-based Machine Learning for Modelling Drug-Target Interactions</small>
+                                    <br><small class="text-success">Researcher at DKFZ (German Cancer Research Center), Heidelberg</small>
+                                </li>
+                                
+                                <li class="mb-3">
+                                    
+                                    <strong>Arda Celebi</strong>
+                                    
+                                    <span class="badge bg-secondary">2020</span>
+                                    <br>
+                                    <small class="text-muted fst-italic">Utilizing Weakly-Supervised Learning for Hashtag Segmentation and Named Entity Disambiguation</small>
+                                    <br><small class="text-success">CTO and Co-Founder of VireUp</small>
+                                </li>
+                                
+                                <li class="mb-3">
+                                    
+                                    <a href="https://orcid.org/0000-0003-3254-0960" target="_blank"><strong>Saziye Betul Ozates</strong></a>
+                                    
+                                    <span class="badge bg-secondary">2022</span>
+                                    <br>
+                                    <small class="text-muted fst-italic">Deep Learning-based Dependency Parsing for Turkish</small>
+                                    <br><small class="text-success">Post-doctoral researcher at Koc University, Istanbul</small>
+                                </li>
+                                
+                            </ul>
+
+                            <h4 class="student-category mt-4"><i class="bi bi-award me-2"></i>Selected MS Alumni</h4>
+                            <ul class="list-unstyled">
+                                
+                                <li class="mb-2">
+                                    <strong>Bedirhan Caldir</strong>
+                                    <span class="badge bg-secondary">2022</span>
+                                    <br>
+                                    <small class="text-muted fst-italic">Predicting intracellular functions of proteins from amino acid sequences using language processing methods</small>
+                                </li>
+                                
+                                <li class="mb-2">
+                                    <strong>Atif Emre Yuksel</strong>
+                                    <span class="badge bg-secondary">2022</span>
+                                    <br>
+                                    <small class="text-muted fst-italic">Hate Speech Detection in Turkish News using a Transformer-based Model Enhanced with Linguistic Features</small>
+                                </li>
+                                
+                                <li class="mb-2">
+                                    <strong>Riza Ozcelik</strong>
+                                    <span class="badge bg-secondary">2022</span>
+                                    <br>
+                                    <small class="text-muted fst-italic">Biomolecular language processing for drug-target affinity prediction</small>
+                                </li>
+                                
+                                <li class="mb-2">
+                                    <strong>Abdullatif Koksal</strong>
+                                    <span class="badge bg-secondary">2021</span>
+                                    <br>
+                                    <small class="text-muted fst-italic">Datasets and transformer models for cross-lingual relation classification</small>
+                                </li>
+                                
+                                <li class="mb-2">
+                                    <strong>Gokce Uludogan</strong>
+                                    <span class="badge bg-secondary">2021</span>
+                                    <br>
+                                    <small class="text-muted fst-italic">Targeted drug design with warm start</small>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Teaching Section -->
+    
+    <section class="py-5" id="teaching">
+        <div class="container">
+            <h2><i class="bi bi-book me-2"></i>Teaching</h2>
+
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <h4 class="text-primary mb-3"><i class="bi bi-calendar-check me-2"></i>Current Courses</h4>
+                    
+                    <div class="teaching-card shadow-sm">
+                        <span class="course-code">CMPE549</span> - Bioinformatics
+                    </div>
+                    
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <h4 class="text-secondary mb-3"><i class="bi bi-clock-history me-2"></i>Past Courses</h4>
+                    
+                    <div class="teaching-card shadow-sm">
+                        <span class="course-code">CMPE 321</span> - Introduction to Database Systems
+                    </div>
+                    
+                    <div class="teaching-card shadow-sm">
+                        <span class="course-code">CMPE 484</span> - Introduction to Bioinformatics and Computational Genomics
+                    </div>
+                    
+                    <div class="teaching-card shadow-sm">
+                        <span class="course-code">CMPE 150</span> - Introduction to Computing
+                    </div>
+                    
+                    <div class="teaching-card shadow-sm">
+                        <span class="course-code">CMPE 220</span> - Discrete Computational Structures
+                    </div>
+                    
+                    <div class="teaching-card shadow-sm">
+                        <span class="course-code">CMPE 493</span> - Introduction to Information Retrieval
+                    </div>
+                    
+                    <div class="teaching-card shadow-sm">
+                        <span class="course-code">CMPE 561</span> - Natural Language Processing
+                    </div>
+                    
+                    <div class="teaching-card shadow-sm">
+                        <span class="course-code">CMPE 59K</span> - Information Retrieval
+                    </div>
+                    
+                    <div class="teaching-card shadow-sm">
+                        <span class="course-code">CMPE 59H</span> - Bioinformatics
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Contact Section -->
+    <section class="py-5 contact-section" id="contact">
+        <div class="container">
+            <h2><i class="bi bi-envelope-fill me-2"></i>Contact</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><i class="bi bi-geo-alt-fill me-2 text-primary"></i>Department of Computer Engineering, Bogazici University, 34342 Bebek, Istanbul, Turkey</p>
+                    <p><i class="bi bi-building me-2 text-primary"></i>Office: BM 18</p>
+                    <p><i class="bi bi-telephone-fill me-2 text-primary"></i>+90 212 359 7226</p>
+                    <p><i class="bi bi-envelope me-2 text-primary"></i><a href="mailto:arzucan.ozgur@boun.edu.tr">arzucan.ozgur@boun.edu.tr</a></p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Links</h5>
+                    <p>
+                        <a href="http://tabilab.cmpe.boun.edu.tr/" target="_blank">TABI Lab</a><br>
+                        <a href="http://ailab.cmpe.boun.edu.tr/" target="_blank">AILAB</a><br>
+                        <a href="http://www.cmpe.boun.edu.tr/" target="_blank">Department of Computer Engineering</a><br>
+                        <a href="http://www.boun.edu.tr/" target="_blank">Bogazici University</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p class="mb-0">&copy; Arzucan Özgür | Last updated: December 2025</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

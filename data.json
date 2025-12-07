@@ -1,0 +1,197 @@
+{
+  "basics": {
+    "name": "Arzucan Özgür",
+    "label": "Associate Professor",
+    "image": "images/arzucan_ozgur.jpg",
+    "email": "arzucan.ozgur@boun.edu.tr",
+    "location": "Department of Computer Engineering, Bogazici University, 34342 Bebek, Istanbul, Turkey",
+    "office": "BM 18",
+    "phone": "+90 212 359 7226",
+    "bio": "I am a faculty member in the [Department of Computer Engineering](http://www.cmpe.boun.edu.tr/) at [Bogazici University](http://www.boun.edu.tr/), and co-director of [TABI (Text Analytics and Bioinformatics) Lab](http://tabilab.cmpe.boun.edu.tr/). I'm also a member of the [AILAB](http://ailab.cmpe.boun.edu.tr/). My research is at the intersection of **bioinformatics** and **natural language processing** with the goal of developing algorithms for processing and understanding both natural (human) languages and the languages encoded in biological molecular sequences.",
+    "short_bio": "I joined the Department of Computer Engineering at Bogazici University in 2011. Prior to that I worked in the Faculty of Computer and Informatics at Istanbul Technical University between 2010-2011. I received my **Ph.D. degree in Computer Science and Engineering** from the University of Michigan, Ann Arbor, USA in 2010. I hold an M.S. degree and a B.S. degree in Computer Engineering from Bogazici University.",
+    "social": [
+      { "network": "Google Scholar", "url": "https://scholar.google.com/citations?hl=en&user=8Kn4-EsAAAAJ", "icon": "bi-mortarboard-fill", "color": "primary" },
+      { "network": "DBLP", "url": "https://dblp.org/pid/26/6952.html", "icon": "bi-journal-text", "color": "secondary" },
+      { "network": "CV", "url": "cv_arzucan.pdf", "icon": "bi-file-earmark-person", "color": "dark" }
+    ]
+  },
+  "interests": [
+    "Natural Language Processing",
+    "Bioinformatics",
+    "Text Mining",
+    "Machine Learning",
+    "Information Extraction",
+    "Turkish Language Processing"
+  ],
+  "news": [
+    { "date": "2022", "text": "Gokce Uludogan presented \"Exploiting Pretrained Biochemical Language Models for Targeted Drug Design\" at **ECCB 2022** in Barcelona, Spain. The paper is published in the *Bioinformatics* journal." },
+    { "date": "2023", "text": "Arzucan Ozgur serves in the Organizing Committee of **RECOMB 2023**, which took place in Istanbul between 14-19 April 2023." },
+    { "date": "2022", "text": "Arzucan Ozgur serves as Vice Chair for the IAPR Technical Committee on **Pattern Recognition for Bioinformatics and Digital Health** between 2022-2024." },
+    { "date": "2022", "text": "New paper co-authored by Merve Unlu Menevse, Yusufcan Manav, Ebru Arisoy, and Arzucan Ozgur entitled \"A Framework for Automatic Generation of Spoken Question-Answering Data\" is accepted to the **Findings of EMNLP 2022**." },
+    { "date": "2022", "text": "Saziye Betul Ozates successfully defended her PhD thesis entitled \"Deep Learning-based Dependency Parsing for Turkish\"." }
+  ],
+  "projects": [
+    {
+      "title": "Utilizing Digital Technology for Social Cohesion",
+      "summary": "Utilizing Digital Technology for Social Cohesion, Positive Messaging and Peace by Boosting Collaboration, Exchange and Solidarity. The project is led by the Hrant Dink Foundation (HDV) and is a collaboration between HDV, Sabanci University, and Bogazici University.",
+      "tags": ["NLP", "Hate Speech Detection", "Social Media"],
+      "funder": "European Union - EuropeAid",
+      "years": "2021-2024"
+    },
+    {
+      "title": "Chemical Language Processing for Target-based Drug Design",
+      "summary": "Developing chemical language processing methods for target-based drug design using deep learning approaches.",
+      "tags": ["Bioinformatics", "Drug Design", "Deep Learning"],
+      "funder": "TUBITAK 1001",
+      "years": "2019-2022"
+    },
+    {
+      "title": "A Deep Learning based Turkish Dependency Parser",
+      "summary": "Developing a deep learning based dependency parser for Turkish language.",
+      "tags": ["NLP", "Turkish", "Deep Learning", "Parsing"],
+      "funder": "TUBITAK 1005",
+      "years": "2018-2019"
+    },
+    {
+      "title": "Contextual Text Mining from the Biomedical Scientific Literature",
+      "summary": "Developing text mining techniques to automatically extract biologically important information such as relationships between biomolecules from scientific publications.",
+      "tags": ["Text Mining", "Bioinformatics", "Information Extraction"],
+      "funder": "European Commission, FP7 Marie Curie Career Integration Grant",
+      "years": "2012-2016"
+    }
+  ],
+  "tools": [
+    {
+      "name": "VAPUR",
+      "description": "A Search Engine for Related Protein-Compound Pairs in COVID-19 Literature",
+      "url": "https://tabilab.cmpe.boun.edu.tr/vapur/"
+    },
+    {
+      "name": "WarmMolGen",
+      "description": "A Tool for Protein Target-based Chemical Molecule Generation",
+      "url": "https://github.com/boun-tabi/biochemical-lms-for-drug-design"
+    },
+    {
+      "name": "TULAP",
+      "description": "The Turkish Language Processing Platform",
+      "url": "https://tulap.cmpe.boun.edu.tr"
+    },
+    {
+      "name": "BIOSSES",
+      "description": "Biomedical Sentence Similarity Estimation System",
+      "url": "http://tabilab.cmpe.boun.edu.tr/BIOSSES/"
+    },
+    {
+      "name": "Hashtag Segmentation Tool",
+      "description": "Tool for segmenting hashtags in social media text",
+      "url": "http://tabilab.cmpe.boun.edu.tr/projects/hashtag_segmentation/"
+    },
+    {
+      "name": "PHISTO",
+      "description": "Pathogen-Host Interaction Search Tool",
+      "url": "http://www.phisto.org"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Exploiting pretrained biochemical language models for targeted drug design",
+      "authors": "Gokce Uludogan, Elif Ozkirimli, Kutlu Ulgen, Nilgun Karali, **Arzucan Ozgur**",
+      "venue": "Bioinformatics, Volume 38, Issue Supplement_2, Pages ii155–ii161, 2022",
+      "links": [{ "name": "Paper", "url": "https://doi.org/10.1093/bioinformatics/btac482" }]
+    },
+    {
+      "title": "Cluster-based mention typing for named entity disambiguation",
+      "authors": "Arda Celebi, **Arzucan Ozgur**",
+      "venue": "Natural Language Engineering, 28(1), 1-37, 2022",
+      "links": [{ "name": "Paper", "url": "https://doi.org/10.1017/S1351324920000443" }]
+    },
+    {
+      "title": "Resources for Turkish dependency parsing: Introducing the BOUN treebank and the BoAT annotation tool",
+      "authors": "Utku Turk, Furkan Atmaca, Saziye Betul Ozates, Gozde Berk, Seyyit Talha Bedir, Abdullatif Koksal, Balkiz Ozturk Basaran, Tunga Gungor, **Arzucan Ozgur**",
+      "venue": "Language Resources and Evaluation, 56(1), pp. 259-307, 2022",
+      "links": [{ "name": "Paper", "url": "https://link.springer.com/article/10.1007/s10579-021-09558-0" }]
+    },
+    {
+      "title": "A Hybrid Deep Dependency Parsing Approach Enhanced With Rules and Morphology: A Case Study for Turkish",
+      "authors": "Saziye Betul Ozates, **Arzucan Ozgur**, Tunga Gungor, Balkiz Ozturk Basaran",
+      "venue": "IEEE Access, vol. 10, pp. 93867-93886, 2022",
+      "links": [{ "name": "Paper", "url": "https://doi.org/10.1109/ACCESS.2022.3202947" }]
+    },
+    {
+      "title": "Improving Code-Switching Dependency Parsing with Semi-Supervised Auxiliary Tasks",
+      "authors": "Saziye Betul Ozates, **Arzucan Ozgur**, Tunga Gungor, Ozlem Cetinoglu",
+      "venue": "Findings of the Association for Computational Linguistics: NAACL 2022, pp. 1159-1171",
+      "links": [{ "name": "Paper", "url": "https://aclanthology.org/2022.findings-naacl.87/" }]
+    },
+    {
+      "title": "A Dataset and BERT-based Models for Targeted Sentiment Analysis on Turkish Texts",
+      "authors": "Mustafa Melih Mutlu, **Arzucan Ozgur**",
+      "venue": "ACL 2022: Student Research Workshop, pages 467–472, Dublin, Ireland",
+      "links": [{ "name": "Paper", "url": "https://aclanthology.org/2022.acl-srw.39/" }]
+    },
+    {
+      "title": "Balancing Methods for Multi-label Text Classification with Long-Tailed Class Distribution",
+      "authors": "Yi Huang, Buse Giledereli, Abdullatif Koksal, **Arzucan Ozgur**, Elif Ozkirimli",
+      "venue": "EMNLP 2021, pages 8153–8161, Online and Punta Cana, Dominican Republic",
+      "links": [{ "name": "Paper", "url": "https://aclanthology.org/2021.emnlp-main.643/" }]
+    },
+    {
+      "title": "ChemBoost: A Chemical Language Based Approach for Protein - Ligand Binding Affinity Prediction",
+      "authors": "Riza Ozcelik, Hakime Ozturk, **Arzucan Ozgur**, Elif Ozkirimli",
+      "venue": "Molecular Informatics, 40, 2000212, 2021",
+      "links": [{ "name": "Paper", "url": "https://doi.org/10.1002/minf.202000212" }]
+    }
+  ],
+  "students": {
+    "current_phd": [
+      { "name": "Gonul Ayci", "note": "Co-advise with Pinar Yolum" },
+      { "name": "Melih Barsbey", "note": "Co-advise with Taylan Cemgil" },
+      { "name": "Nuriye Ozlem Ozcan Simsek", "note": "Co-advise with Fikret Gurgen" },
+      { "name": "Burak Suyunu" },
+      { "name": "Gokce Uludogan" },
+      { "name": "Merve Unlu Menevse", "note": "Co-advise with Ebru Arisoy" },
+      { "name": "Enes Taylan" }
+    ],
+    "current_ms": [
+      { "name": "Omer Ak" },
+      { "name": "Nur Bengisu Cam" },
+      { "name": "Omer Faruk Cavas" },
+      { "name": "Sadullah Gultekin", "note": "Co-advise with Pinar Yanardag" },
+      { "name": "Musa Nuri Ihtiyar" },
+      { "name": "Berke Kavak" },
+      { "name": "Burak Can Koban" },
+      { "name": "Yusufcan Manav", "note": "Co-advise with Ebru Arisoy" },
+      { "name": "Busra Oguzoglu" },
+      { "name": "Bugrahan Sahin" },
+      { "name": "Cansu Damla Yilmaz" }
+    ],
+    "alumni_phd": [
+      { "name": "Ilknur Karadeniz", "year": 2019, "thesis": "Ontology-based Entity Tagging and Normalization in the Biomedical Domain", "position": "Assistant Professor at Isik University", "url": "http://ilknurkaradeniz.com/" },
+      { "name": "Hakime Ozturk", "year": 2019, "thesis": "Text-based Machine Learning for Modelling Drug-Target Interactions", "note": "Co-advise with Elif Ozkirimli", "position": "Researcher at DKFZ (German Cancer Research Center), Heidelberg", "url": "https://hkmztrk.github.io/" },
+      { "name": "Arda Celebi", "year": 2020, "thesis": "Utilizing Weakly-Supervised Learning for Hashtag Segmentation and Named Entity Disambiguation", "position": "CTO and Co-Founder of VireUp" },
+      { "name": "Saziye Betul Ozates", "year": 2022, "thesis": "Deep Learning-based Dependency Parsing for Turkish", "note": "Co-advise with Tunga Gungor", "position": "Post-doctoral researcher at Koc University, Istanbul", "url": "https://orcid.org/0000-0003-3254-0960" }
+    ],
+    "alumni_ms": [
+      { "name": "Bedirhan Caldir", "year": 2022, "thesis": "Predicting intracellular functions of proteins from amino acid sequences using language processing methods" },
+      { "name": "Atif Emre Yuksel", "year": 2022, "thesis": "Hate Speech Detection in Turkish News using a Transformer-based Model Enhanced with Linguistic Features" },
+      { "name": "Riza Ozcelik", "year": 2022, "thesis": "Biomolecular language processing for drug-target affinity prediction", "note": "Co-advised with Elif Ozkirimli" },
+      { "name": "Abdullatif Koksal", "year": 2021, "thesis": "Datasets and transformer models for cross-lingual relation classification" },
+      { "name": "Gokce Uludogan", "year": 2021, "thesis": "Targeted drug design with warm start", "note": "Co-advised with Elif Ozkirimli" }
+    ]
+  },
+  "teaching": {
+    "current": [
+      { "code": "CMPE549", "name": "Bioinformatics" }
+    ],
+    "past": [
+      { "code": "CMPE 321", "name": "Introduction to Database Systems" },
+      { "code": "CMPE 484", "name": "Introduction to Bioinformatics and Computational Genomics" },
+      { "code": "CMPE 150", "name": "Introduction to Computing" },
+      { "code": "CMPE 220", "name": "Discrete Computational Structures" },
+      { "code": "CMPE 493", "name": "Introduction to Information Retrieval" },
+      { "code": "CMPE 561", "name": "Natural Language Processing" },
+      { "code": "CMPE 59K", "name": "Information Retrieval" },
+      { "code": "CMPE 59H", "name": "Bioinformatics" }
+    ]
+  }
+}
