@@ -1,0 +1,61 @@
+{
+  "basics": {
+    "name": "Dr. Feline Purrington",
+    "label": "Distinguished Professor of String Theory",
+    "image": "images/scholarly-cat.png",
+    "email": "meow@university.edu",
+    "location": "The Sunbeam on the Rug, Apt 4B",
+    "bio": "I am a **Tenured Professor** at the Institute of Advanced Napping. My research primarily focuses on *Applied String Theory* (chasing yarn), *Gravitational Anomalies* (pushing cups off tables), and the *Psychology of the Red Dot*. When not researching, I can be found judging you silently from atop the bookshelf.",
+    "social": [
+      { "network": "Scholar", "url": "#", "icon": "bi-mortarboard-fill", "color": "primary" },
+      { "network": "InstaCat", "url": "#", "icon": "bi-instagram", "color": "danger" },
+      { "network": "GitHub", "url": "#", "icon": "bi-github", "color": "dark" }
+    ]
+  },
+  "interests": [
+    "Thermodynamics of Sunbeams",
+    "Box Topology (If I Fits, I Sits)",
+    "Ornithological Surveillance",
+    "Midnight Zoomies"
+  ],
+  "news": [
+    { "date": "Nov 2024", "text": "Narrowly missed catching the **Red Dot**. Further funding required for high-speed camera analysis." },
+    { "date": "Oct 2024", "text": "Published a controversial op-ed: *'Why the vacuum cleaner is the enemy of progress'*." },
+    { "date": "Sep 2024", "text": "Successfully slept for 18 hours straight. New lab record." }
+  ],
+  "projects": [
+    {
+      "title": "Operation: Empty Bowl",
+      "image": "images/empty-bowl.webp",
+      "summary": "An investigation into the human inability to perceive that a bowl is empty when the center is visible.",
+      "tags": ["Psychology", "Food Science", "Meowing"],
+      "url": "#"
+    },
+    {
+      "title": "The Box Paradox",
+      "image": "images/cat-in-a-box.webp",
+      "summary": "A study on spatial geometry: demonstrating that a cat of volume *V* can fit into a box of volume *0.5V*.",
+      "tags": ["Physics", "Geometry", "Liquid State"],
+      "url": "#"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Gravity Verification: An Empirical Study of Glassware on Table Edges",
+      "authors": "**F. Purrington**, Mittens, O. G.",
+      "venue": "Journal of Chaotic Dynamics, 2023",
+      "links": [
+        { "name": "PDF (Chewed)", "url": "#" },
+        { "name": "Video Evidence", "url": "#" }
+      ]
+    },
+    {
+      "title": "The 3 AM Song: Acoustic Analysis of Nocturnal Vocalizations",
+      "authors": "**F. Purrington**",
+      "venue": "Proceedings of the Sleep Deprivation Society, 2022",
+      "links": [
+        { "name": "Audio", "url": "#" }
+      ]
+    }
+  ]
+}

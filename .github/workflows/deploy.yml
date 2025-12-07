@@ -1,0 +1,35 @@
+name: Deploy to gh-pages Branch
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: write  # REQUIRED: Allows the action to push to the gh-pages branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: pip install jinja2 markdown
+
+      - name: Build Website
+        # This generates the index.html file
+        run: python build.py
+
+      - name: Deploy to gh-pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: .        # The folder the action should deploy (root, since index.html is there).
+          clean: true      # Automatically remove deleted files from the deploy branch
