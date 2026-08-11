@@ -94,6 +94,105 @@
   ],
   "publications": [
     {
+      "title": "PUFFIN: Protein Unit Discovery with Functional Supervision",
+      "authors": "Gökçe Uludoğan, Buse Giledereli, Elif Ozkirimli, **Arzucan Özgür**",
+      "venue": "Bioinformatics, Volume 42, Issue Supplement_1, btag265, 2026",
+      "links": [
+        {
+          "name": "Paper",
+          "url": "https://doi.org/10.1093/bioinformatics/btag265"
+        }
+      ]
+    },
+    {
+      "title": "ConGen: Targeted Molecule Generation Through Contrastive Learning and Latent Optimization",
+      "authors": "Can Koban, Gökçe Uludoğan, Elif Ozkirimli, **Arzucan Özgür**",
+      "venue": "Molecular Informatics, Volume 45, Issue 5, e70038, 2026",
+      "links": [
+        {
+          "name": "Paper",
+          "url": "https://doi.org/10.1002/minf.70038"
+        }
+      ]
+    },
+    {
+      "title": "STAR-GO: Improving Protein Function Prediction by Learning to Hierarchically Integrate Ontology-Informed Semantic Embeddings",
+      "authors": "Mehmet Efe Akça, Gökçe Uludoğan, **Arzucan Özgür**, İnci M. Baytaş",
+      "venue": "Bioinformatics, Volume 42, Issue 4, btag146, 2026",
+      "links": [
+        {
+          "name": "Paper",
+          "url": "https://doi.org/10.1093/bioinformatics/btag146"
+        }
+      ]
+    },
+    {
+      "title": "HATECAT-TR: A Hate Speech Span Detection and Categorization Dataset for Turkish",
+      "authors": "Hasan Kerem Şeker, Gökçe Uludoğan, Pelin Önal, **Arzucan Özgür**",
+      "venue": "Findings of the Association for Computational Linguistics: EMNLP 2025, pp. 25568–25579, 2025",
+      "links": [
+        {
+          "name": "Paper",
+          "url": "https://aclanthology.org/2025.findings-emnlp.1393/"
+        }
+      ]
+    },
+    {
+      "title": "GNNMutation: A Heterogeneous Graph-Based Framework for Cancer Detection",
+      "authors": "Nuriye Özlem Özcan Şimşek, **Arzucan Özgür**, Fikret Gürgen",
+      "venue": "BMC Bioinformatics, Volume 26, Article 153, 2025",
+      "links": [
+        {
+          "name": "Paper",
+          "url": "https://doi.org/10.1186/s12859-025-06133-0"
+        }
+      ]
+    },
+    {
+      "title": "Linguistic Laws Meet Protein Sequences: A Comparative Analysis of Subword Tokenization Methods",
+      "authors": "Burak Suyunu, Enes Taylan, **Arzucan Özgür**",
+      "venue": "2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), pp. 4489–4496, 2024",
+      "links": [
+        {
+          "name": "Paper",
+          "url": "https://doi.org/10.1109/BIBM62325.2024.10822826"
+        }
+      ]
+    },
+    {
+      "title": "Detecting Hate Speech in Turkish Print Media: A Corpus and a Hybrid Approach with Target-Oriented Linguistic Knowledge",
+      "authors": "Gökçe Uludoğan, Atıf Emre Yüksel, Ümit Tunçer, Burak Işık, Yasemin Korkmaz, Didar Akar, **Arzucan Özgür**",
+      "venue": "Proceedings of the 7th Workshop on Challenges and Applications of Automated Extraction of Socio-political Events from Text (CASE 2024), pp. 205–214, 2024",
+      "links": [
+        {
+          "name": "Paper",
+          "url": "https://aclanthology.org/2024.case-1.29/"
+        }
+      ]
+    },
+    {
+      "title": "Exploring Data-Driven Chemical SMILES Tokenization Approaches to Identify Key Protein–Ligand Binding Moieties",
+      "authors": "Asu Büşra Temizer, Gökçe Uludoğan, Rıza Özçelik, Taha Koulani, Elif Ozkirimli, Kutlu O. Ulgen, Nilgün Karalı, **Arzucan Özgür**",
+      "venue": "Molecular Informatics, Volume 43, Issue 3, e202300249, 2024",
+      "links": [
+        {
+          "name": "Paper",
+          "url": "https://doi.org/10.1002/minf.202300249"
+        }
+      ]
+    },
+    {
+      "title": "Evaluating GPT and BERT Models for Protein–Protein Interaction Identification in Biomedical Text",
+      "authors": "Hasin Rehana, Nur Bengisu Çam, Mert Basmaci, Jie Zheng, Christianah Jemiyo, Yongqun He, **Arzucan Özgür**, Junguk Hur",
+      "venue": "Bioinformatics Advances, Volume 4, Issue 1, vbae133, 2024",
+      "links": [
+        {
+          "name": "Paper",
+          "url": "https://doi.org/10.1093/bioadv/vbae133"
+        }
+      ]
+    },
+    {
       "title": "Exploiting pretrained biochemical language models for targeted drug design",
       "authors": "Gokce Uludogan, Elif Ozkirimli, Kutlu Ulgen, Nilgun Karali, **Arzucan Ozgur**",
       "venue": "Bioinformatics, Volume 38, Issue Supplement_2, Pages ii155–ii161, 2022",
